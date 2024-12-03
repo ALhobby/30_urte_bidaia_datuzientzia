@@ -7,7 +7,7 @@ Lehenengoaren antzeko, baina metrika ezberdinak erabiliz
 
 """
 
-file = "/home/antton/Projects/30_urte_bidaia_datuzientzia/bigarren_fasea_emaitzak.tsv"
+file = "/datuak/bigarren_fasea_emaitzak.tsv"
 df = pl.read_csv(file, separator="\t", has_header=True)
 
 # Remove column "nor", give the sum of the votes for each country and sort the countries by the sum of the votes
@@ -111,4 +111,4 @@ plt.legend()
 plt.tight_layout()
 
 # Save the plot to a file
-plt.savefig("bigarren_fasea_olimpiadak.png", dpi=300)
+plt.savefig("emaitzak/bigarren_fasea_olimpiadak.png", dpi=300)

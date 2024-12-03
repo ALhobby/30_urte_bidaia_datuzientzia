@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 Oinarrizko emaitzak
 """
 
-file = "/home/antton/Projects/30_urte_bidaia_datuzientzia/bigarren_fasea_emaitzak.tsv"
+file = "/datuak/bigarren_fasea_emaitzak.tsv"
 df = pl.read_csv(file, separator="\t", has_header=True)
 
 
@@ -47,4 +47,4 @@ for bar in bars:
 
 plt.tight_layout()
 
-plt.savefig("bigarren_fasea_TOP10.png", dpi=300)
+plt.savefig("emaitzak/bigarren_fasea_TOP10.png", dpi=300)

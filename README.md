@@ -8,10 +8,10 @@ Leiereren PDFtik hartu ditut datuak. Eskuz kopiatu ditut beraz baliteke akatsak 
 ## Emaitzen laburpena:
 
 ### TOP10 botoen arabera
-![Image 1](bigarren_fasea_TOP10.png)
+![Image 1](emaitzak/bigarren_fasea_TOP10.png)
 
 ### "Olimpiadak"
 Ze herrialdek jaso dute 10, 9 eta 8ko boto gehien?
-![Image 2](bigarren_fasea_olimpiadak.png)
+![Image 2](emaitzak/bigarren_fasea_olimpiadak.png)
 
 ### To be continued...

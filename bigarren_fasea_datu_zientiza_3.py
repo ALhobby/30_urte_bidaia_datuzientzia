@@ -5,10 +5,10 @@ import matplotlib.pyplot as plt
 Txorakeriak. Adb, zeinek "asmatu" du gehien bere botoekin? Bozkatutatko zenbat herrialde sartu ta TOP 10ean?
 """
 
-file = "/home/antton/Projects/30_urte_bidaia_datuzientzia/bigarren_fasea_emaitzak.tsv"
+file = "/datuak/bigarren_fasea_emaitzak.tsv"
 df = pl.read_csv(file, separator="\t", has_header=True)
 
-top_15_file = "/home/antton/Projects/30_urte_bidaia_datuzientzia/bigarren_fasea_TOP15.tsv"
+top_15_file = "/emaitzak/bigarren_fasea_TOP15.tsv"
 top_15_df = pl.read_csv(top_15_file, separator="\t", has_header=True)
 
 top_10_df = top_15_df.head(10)
@@ -36,4 +36,4 @@ bozkatuak_top10ean_df = bozkatuak_top10ean_df.select(["nor", "bozkatuak_top10ean
 print(bozkatuak_top10ean_df)
 
 # Save to file
-bozkatuak_top10ean_df.write_csv("bigarren_fasea_bozkatuak_top10ean.tsv", separator="\t", include_header=True)
+bozkatuak_top10ean_df.write_csv("emaitzak/bigarren_fasea_bozkatuak_top10ean.tsv", separator="\t", include_header=True)

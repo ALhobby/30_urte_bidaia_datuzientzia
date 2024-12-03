@@ -230,4 +230,4 @@ df = df.slice(1, df.height)
 print(df)
 
 # Save the DataFrame to a CSV file
-df.write_csv("bigarren_fasea_emaitzak.tsv", separator="\t", include_header=True)
+df.write_csv("datuak/bigarren_fasea_emaitzak.tsv", separator="\t", include_header=True)
